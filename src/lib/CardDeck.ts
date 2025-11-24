@@ -41,7 +41,6 @@ class CardDeck {
         for (let i = 0; i < cardsToPull; i++) {
             pulledCards.push(this.getCard());
         }
-
         return pulledCards;
     }
 }
