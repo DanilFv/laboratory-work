@@ -627,4 +627,9 @@
 .playingCards ul.deck li:nth-child(31) { left: 60px; bottom: 30px; }
 .playingCards ul.deck li:nth-child(32) { left: 62px; bottom: 31px; }
 
-
+.hand {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
