@@ -1,6 +1,8 @@
 export interface ISuits  {
-    diams: string;
-    hearts: string;
-    clubs: string;
-    spades: string;
+    [key: string]: string;
+}
+
+export interface ICard {
+    rank: string;
+    suit: string;
 }
